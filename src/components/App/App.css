@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+
+}
+.inputField{
+    text-align: center;
+    margin: 0  0 10px 0;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    background-color: #333;
+}
+label{
+    color: #fff;
+}
+input{
+    color: #333;
+    padding: 6px 4px;
+    width: 240px;
+}
+.btn{
+    margin-left: 8px;
+    padding: 6px;
+    width: 120px;
+}
+.btn:hover{
+    opacity: .7;
+    color: #fff;
+    background-color: #999;
+}
+.btn:active{
+    background-color: #888888;
+}
+.result{
+    height: 360px;
+    width: 320px;
+    border: 1px solid #ccc;
+    margin: 16px;
+    box-shadow: 2px 2px 4px 1px #ece9e9;
+}
